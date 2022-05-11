@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+    display: flex;    
+    flex-direction: column;
+    height: 100vh;
+    min-height: 320px;
+    min-width: 730px;
+    padding: 5px;
+    
+}
+
+.textarea {
+    background-color: rgb(240, 240, 240);
+    height: 20%;
+    font-size: min(1.82vw, 4.16vh);
+    outline: none;
+}
+
+.keyboard {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    margin: px auto;
+    
+}
+
+.button {
+    background-color:rgba(174, 170, 170, 0.905);
+    border-color: black;
+    border-radius: 5px;
+    font-size: min(1.82vw, 4.16vh);
+    margin: 5px;
+    outline: none;
+    transition: background-color 0.1s;
+}
+
+.button--active {
+    background-color: rgb(255, 255, 255);    
+}
